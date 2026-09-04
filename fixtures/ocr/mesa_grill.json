@@ -1,0 +1,195 @@
+{
+  "source": "fixtures/receipts/mesa_grill.png",
+  "vendor": "MESA GRILL",
+  "date": "2026-09-01",
+  "currency": "USD",
+  "subtotal": 30.5,
+  "tax": 2.59,
+  "total": 33.09,
+  "payment": "MASTERCARD ****5510",
+  "doc_type": "receipt",
+  "line_items": [
+    {
+      "desc": "Street tacos",
+      "qty": 2,
+      "amount": 18.0
+    },
+    {
+      "desc": "Iced tea",
+      "qty": 2,
+      "amount": 5.0
+    },
+    {
+      "desc": "Flan",
+      "qty": 1,
+      "amount": 7.5
+    }
+  ],
+  "blocks": [
+    {
+      "text": "MESA GRILL",
+      "bbox": [
+        90,
+        28,
+        135,
+        15
+      ],
+      "role": "vendor",
+      "confidence": 0.99
+    },
+    {
+      "text": "Table 7   2026-09-01",
+      "bbox": [
+        69,
+        57,
+        156,
+        11
+      ],
+      "role": "date",
+      "confidence": 0.99
+    },
+    {
+      "text": "2 Street tacos",
+      "bbox": [
+        24,
+        113,
+        118,
+        10
+      ],
+      "role": "line_item",
+      "confidence": 0.99
+    },
+    {
+      "text": " 18.00",
+      "bbox": [
+        300,
+        113,
+        51,
+        10
+      ],
+      "role": "line_amount",
+      "confidence": 0.99
+    },
+    {
+      "text": "2 Iced tea",
+      "bbox": [
+        24,
+        142,
+        84,
+        11
+      ],
+      "role": "line_item",
+      "confidence": 0.99
+    },
+    {
+      "text": "  5.00",
+      "bbox": [
+        300,
+        143,
+        51,
+        10
+      ],
+      "role": "line_amount",
+      "confidence": 0.99
+    },
+    {
+      "text": "1 Flan",
+      "bbox": [
+        24,
+        172,
+        51,
+        11
+      ],
+      "role": "line_item",
+      "confidence": 0.99
+    },
+    {
+      "text": "  7.50",
+      "bbox": [
+        300,
+        173,
+        51,
+        10
+      ],
+      "role": "line_amount",
+      "confidence": 0.99
+    },
+    {
+      "text": "Subtotal",
+      "bbox": [
+        24,
+        223,
+        63,
+        11
+      ],
+      "role": "subtotal_label",
+      "confidence": 0.99
+    },
+    {
+      "text": "30.50",
+      "bbox": [
+        300,
+        223,
+        42,
+        10
+      ],
+      "role": "subtotal",
+      "confidence": 0.99
+    },
+    {
+      "text": "Tax",
+      "bbox": [
+        23,
+        249,
+        26,
+        11
+      ],
+      "role": "tax_label",
+      "confidence": 0.99
+    },
+    {
+      "text": "2.59",
+      "bbox": [
+        308,
+        249,
+        34,
+        10
+      ],
+      "role": "tax",
+      "confidence": 0.99
+    },
+    {
+      "text": "TOTAL",
+      "bbox": [
+        24,
+        278,
+        71,
+        15
+      ],
+      "role": "total_label",
+      "confidence": 0.99
+    },
+    {
+      "text": "33.09",
+      "bbox": [
+        292,
+        278,
+        63,
+        15
+      ],
+      "role": "total",
+      "confidence": 0.99
+    },
+    {
+      "text": "MASTERCARD ****5510",
+      "bbox": [
+        24,
+        325,
+        160,
+        10
+      ],
+      "role": "payment",
+      "confidence": 0.99
+    }
+  ]
+}

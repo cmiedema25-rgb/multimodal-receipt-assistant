@@ -1,0 +1,233 @@
+{
+  "source": "fixtures/receipts/miller_office.png",
+  "vendor": "MILLER OFFICE SUPPLY",
+  "date": "2026-06-18",
+  "currency": "USD",
+  "subtotal": 532.35,
+  "tax": 47.91,
+  "total": 580.26,
+  "payment": "AMEX ****3003",
+  "doc_type": "invoice",
+  "line_items": [
+    {
+      "desc": "Copy paper 10-ream",
+      "qty": 8,
+      "amount": 239.6
+    },
+    {
+      "desc": "Toner cartridge BK",
+      "qty": 3,
+      "amount": 186.0
+    },
+    {
+      "desc": "Shipping labels",
+      "qty": 10,
+      "amount": 84.5
+    },
+    {
+      "desc": "Binder clips mixed",
+      "qty": 5,
+      "amount": 22.25
+    }
+  ],
+  "blocks": [
+    {
+      "text": "MILLER OFFICE SUPPLY",
+      "bbox": [
+        28,
+        35,
+        313,
+        18
+      ],
+      "role": "vendor",
+      "confidence": 0.99
+    },
+    {
+      "text": "INVOICE  INV-2207",
+      "bbox": [
+        28,
+        67,
+        140,
+        11
+      ],
+      "role": "doc_type",
+      "confidence": 0.99
+    },
+    {
+      "text": "Date: 2026-06-18",
+      "bbox": [
+        28,
+        123,
+        133,
+        11
+      ],
+      "role": "date",
+      "confidence": 0.99
+    },
+    {
+      "text": "  8  Copy paper 10-ream",
+      "bbox": [
+        32,
+        183,
+        194,
+        13
+      ],
+      "role": "line_item",
+      "confidence": 0.99
+    },
+    {
+      "text": " 239.60",
+      "bbox": [
+        560,
+        183,
+        59,
+        10
+      ],
+      "role": "line_amount",
+      "confidence": 0.99
+    },
+    {
+      "text": "  3  Toner cartridge BK",
+      "bbox": [
+        32,
+        210,
+        194,
+        14
+      ],
+      "role": "line_item",
+      "confidence": 0.99
+    },
+    {
+      "text": " 186.00",
+      "bbox": [
+        560,
+        211,
+        59,
+        10
+      ],
+      "role": "line_amount",
+      "confidence": 0.99
+    },
+    {
+      "text": " 10  Shipping labels",
+      "bbox": [
+        32,
+        238,
+        168,
+        14
+      ],
+      "role": "line_item",
+      "confidence": 0.99
+    },
+    {
+      "text": "  84.50",
+      "bbox": [
+        560,
+        239,
+        59,
+        10
+      ],
+      "role": "line_amount",
+      "confidence": 0.99
+    },
+    {
+      "text": "  5  Binder clips mixed",
+      "bbox": [
+        32,
+        266,
+        194,
+        14
+      ],
+      "role": "line_item",
+      "confidence": 0.99
+    },
+    {
+      "text": "  22.25",
+      "bbox": [
+        560,
+        267,
+        59,
+        10
+      ],
+      "role": "line_amount",
+      "confidence": 0.99
+    },
+    {
+      "text": "Subtotal",
+      "bbox": [
+        460,
+        331,
+        63,
+        11
+      ],
+      "role": "subtotal_label",
+      "confidence": 0.99
+    },
+    {
+      "text": "532.35",
+      "bbox": [
+        580,
+        331,
+        51,
+        10
+      ],
+      "role": "subtotal",
+      "confidence": 0.99
+    },
+    {
+      "text": "Tax",
+      "bbox": [
+        459,
+        357,
+        26,
+        11
+      ],
+      "role": "tax_label",
+      "confidence": 0.99
+    },
+    {
+      "text": "47.91",
+      "bbox": [
+        588,
+        357,
+        42,
+        10
+      ],
+      "role": "tax",
+      "confidence": 0.99
+    },
+    {
+      "text": "TOTAL",
+      "bbox": [
+        460,
+        388,
+        64,
+        13
+      ],
+      "role": "total_label",
+      "confidence": 0.99
+    },
+    {
+      "text": "580.26",
+      "bbox": [
+        572,
+        388,
+        70,
+        13
+      ],
+      "role": "total",
+      "confidence": 0.99
+    },
+    {
+      "text": "Card on file  AMEX ****3003",
+      "bbox": [
+        28,
+        442,
+        227,
+        11
+      ],
+      "role": "payment",
+      "confidence": 0.99
+    }
+  ]
+}

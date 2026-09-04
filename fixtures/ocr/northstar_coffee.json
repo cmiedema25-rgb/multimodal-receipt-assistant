@@ -1,0 +1,218 @@
+{
+  "source": "fixtures/receipts/northstar_coffee.png",
+  "vendor": "NORTHSTAR COFFEE",
+  "date": "2026-08-12",
+  "time": "08:41",
+  "currency": "USD",
+  "subtotal": 14.5,
+  "tax": 1.31,
+  "total": 15.81,
+  "payment": "VISA ****4242",
+  "doc_type": "receipt",
+  "line_items": [
+    {
+      "desc": "Latte 12oz",
+      "qty": 1,
+      "amount": 5.25
+    },
+    {
+      "desc": "Blueberry muffin",
+      "qty": 1,
+      "amount": 3.75
+    },
+    {
+      "desc": "Drip coffee",
+      "qty": 2,
+      "amount": 5.5
+    }
+  ],
+  "blocks": [
+    {
+      "text": "NORTHSTAR COFFEE",
+      "bbox": [
+        70,
+        33,
+        252,
+        16
+      ],
+      "role": "vendor",
+      "confidence": 0.99
+    },
+    {
+      "text": "Portland, OR",
+      "bbox": [
+        120,
+        61,
+        100,
+        14
+      ],
+      "role": "address",
+      "confidence": 0.99
+    },
+    {
+      "text": "2026-08-12  08:41",
+      "bbox": [
+        95,
+        91,
+        154,
+        11
+      ],
+      "role": "date",
+      "confidence": 0.99
+    },
+    {
+      "text": "1  Latte 12oz",
+      "bbox": [
+        28,
+        143,
+        117,
+        11
+      ],
+      "role": "line_item",
+      "confidence": 0.99
+    },
+    {
+      "text": "  5.25",
+      "bbox": [
+        310,
+        143,
+        54,
+        11
+      ],
+      "role": "line_amount",
+      "confidence": 0.99
+    },
+    {
+      "text": "1  Blueberry muffin",
+      "bbox": [
+        28,
+        175,
+        172,
+        14
+      ],
+      "role": "line_item",
+      "confidence": 0.99
+    },
+    {
+      "text": "  3.75",
+      "bbox": [
+        310,
+        175,
+        54,
+        11
+      ],
+      "role": "line_amount",
+      "confidence": 0.99
+    },
+    {
+      "text": "2  Drip coffee",
+      "bbox": [
+        28,
+        207,
+        126,
+        14
+      ],
+      "role": "line_item",
+      "confidence": 0.99
+    },
+    {
+      "text": "  5.50",
+      "bbox": [
+        310,
+        207,
+        54,
+        11
+      ],
+      "role": "line_amount",
+      "confidence": 0.99
+    },
+    {
+      "text": "Subtotal",
+      "bbox": [
+        28,
+        263,
+        67,
+        12
+      ],
+      "role": "subtotal_label",
+      "confidence": 0.99
+    },
+    {
+      "text": "14.50",
+      "bbox": [
+        310,
+        263,
+        45,
+        11
+      ],
+      "role": "subtotal",
+      "confidence": 0.99
+    },
+    {
+      "text": "Tax",
+      "bbox": [
+        27,
+        291,
+        27,
+        12
+      ],
+      "role": "tax_label",
+      "confidence": 0.99
+    },
+    {
+      "text": "1.31",
+      "bbox": [
+        318,
+        291,
+        36,
+        11
+      ],
+      "role": "tax",
+      "confidence": 0.99
+    },
+    {
+      "text": "TOTAL",
+      "bbox": [
+        28,
+        325,
+        78,
+        16
+      ],
+      "role": "total_label",
+      "confidence": 0.99
+    },
+    {
+      "text": "15.81",
+      "bbox": [
+        300,
+        325,
+        70,
+        16
+      ],
+      "role": "total",
+      "confidence": 0.99
+    },
+    {
+      "text": "VISA ****4242",
+      "bbox": [
+        28,
+        373,
+        117,
+        11
+      ],
+      "role": "payment",
+      "confidence": 0.99
+    },
+    {
+      "text": "THANK YOU",
+      "bbox": [
+        89,
+        423,
+        95,
+        12
+      ],
+      "role": "footer",
+      "confidence": 0.99
+    }
+  ]
+}

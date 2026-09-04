@@ -1,0 +1,143 @@
+{
+  "source": "fixtures/receipts/pine_gas.jpg",
+  "vendor": "PINE GAS #18",
+  "date": "2026-08-28",
+  "time": "16:04",
+  "currency": "USD",
+  "subtotal": 43.55,
+  "tax": 0.0,
+  "total": 43.55,
+  "payment": "DEBIT ****1188",
+  "doc_type": "receipt",
+  "line_items": [
+    {
+      "desc": "Regular 12.480 GAL",
+      "qty": 12.48,
+      "amount": 43.55,
+      "unit": "GAL"
+    }
+  ],
+  "blocks": [
+    {
+      "text": "PINE GAS #18",
+      "bbox": [
+        90,
+        28,
+        157,
+        15
+      ],
+      "role": "vendor",
+      "confidence": 0.99
+    },
+    {
+      "text": "2026-08-28  16:04",
+      "bbox": [
+        70,
+        59,
+        140,
+        11
+      ],
+      "role": "date",
+      "confidence": 0.99
+    },
+    {
+      "text": "1 Regular 12.480 GAL",
+      "bbox": [
+        24,
+        122,
+        168,
+        14
+      ],
+      "role": "line_item",
+      "confidence": 0.99
+    },
+    {
+      "text": "43.55",
+      "bbox": [
+        270,
+        123,
+        42,
+        10
+      ],
+      "role": "line_amount",
+      "confidence": 0.99
+    },
+    {
+      "text": "Subtotal",
+      "bbox": [
+        24,
+        163,
+        63,
+        11
+      ],
+      "role": "subtotal_label",
+      "confidence": 0.99
+    },
+    {
+      "text": "43.55",
+      "bbox": [
+        270,
+        163,
+        42,
+        10
+      ],
+      "role": "subtotal",
+      "confidence": 0.99
+    },
+    {
+      "text": "Tax",
+      "bbox": [
+        23,
+        189,
+        26,
+        11
+      ],
+      "role": "tax_label",
+      "confidence": 0.99
+    },
+    {
+      "text": "0.00",
+      "bbox": [
+        286,
+        189,
+        34,
+        10
+      ],
+      "role": "tax",
+      "confidence": 0.99
+    },
+    {
+      "text": "TOTAL",
+      "bbox": [
+        24,
+        218,
+        71,
+        15
+      ],
+      "role": "total_label",
+      "confidence": 0.99
+    },
+    {
+      "text": "43.55",
+      "bbox": [
+        262,
+        218,
+        63,
+        15
+      ],
+      "role": "total",
+      "confidence": 0.99
+    },
+    {
+      "text": "DEBIT ****1188",
+      "bbox": [
+        24,
+        265,
+        118,
+        10
+      ],
+      "role": "payment",
+      "confidence": 0.99
+    }
+  ]
+}

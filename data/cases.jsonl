@@ -1,0 +1,16 @@
+{"id": "coffee-vendor", "image": "fixtures/receipts/northstar_coffee.png", "ocr": "fixtures/ocr/northstar_coffee.json", "question": "What is the vendor name?", "expected": "NORTHSTAR COFFEE", "field": "vendor"}
+{"id": "coffee-total", "image": "fixtures/receipts/northstar_coffee.png", "ocr": "fixtures/ocr/northstar_coffee.json", "question": "What is the grand total?", "expected": "15.81", "field": "total"}
+{"id": "coffee-date", "image": "fixtures/receipts/northstar_coffee.png", "ocr": "fixtures/ocr/northstar_coffee.json", "question": "What date is on the receipt?", "expected": "2026-08-12", "field": "date"}
+{"id": "coffee-items", "image": "fixtures/receipts/northstar_coffee.png", "ocr": "fixtures/ocr/northstar_coffee.json", "question": "How many line items are listed?", "expected": "3", "field": "item_count"}
+{"id": "coffee-first", "image": "fixtures/receipts/northstar_coffee.png", "ocr": "fixtures/ocr/northstar_coffee.json", "question": "What is the first item they bought?", "expected": "Latte 12oz", "field": "first_item"}
+{"id": "coffee-layout", "image": "fixtures/receipts/northstar_coffee.png", "ocr": "fixtures/ocr/northstar_coffee.json", "question": "Is this a thermal receipt or an invoice layout?", "expected": "thermal_receipt", "field": "layout"}
+{"id": "hardware-vendor", "image": "fixtures/receipts/harbor_hardware.png", "ocr": "fixtures/ocr/harbor_hardware.json", "question": "Which company issued this document?", "expected": "HARBOR HARDWARE", "field": "vendor"}
+{"id": "hardware-total", "image": "fixtures/receipts/harbor_hardware.png", "ocr": "fixtures/ocr/harbor_hardware.json", "question": "What is the amount due / total?", "expected": "174.36", "field": "total"}
+{"id": "hardware-layout", "image": "fixtures/receipts/harbor_hardware.png", "ocr": "fixtures/ocr/harbor_hardware.json", "question": "What kind of document layout is this (invoice or thermal)?", "expected": "invoice", "field": "layout"}
+{"id": "hardware-payment", "image": "fixtures/receipts/harbor_hardware.png", "ocr": "fixtures/ocr/harbor_hardware.json", "question": "How was this paid?", "expected": "ACH ****9012", "field": "payment"}
+{"id": "grill-tax", "image": "fixtures/receipts/mesa_grill.png", "ocr": "fixtures/ocr/mesa_grill.json", "question": "What is the tax amount?", "expected": "2.59", "field": "tax"}
+{"id": "grill-payment", "image": "fixtures/receipts/mesa_grill.png", "ocr": "fixtures/ocr/mesa_grill.json", "question": "What payment card was used?", "expected": "MASTERCARD ****5510", "field": "payment"}
+{"id": "office-subtotal", "image": "fixtures/receipts/miller_office.png", "ocr": "fixtures/ocr/miller_office.json", "question": "What is the subtotal before tax?", "expected": "532.35", "field": "subtotal"}
+{"id": "office-items", "image": "fixtures/receipts/miller_office.png", "ocr": "fixtures/ocr/miller_office.json", "question": "How many line items are on the invoice?", "expected": "4", "field": "item_count"}
+{"id": "gas-vendor", "image": "fixtures/receipts/pine_gas.jpg", "ocr": "fixtures/ocr/pine_gas.json", "question": "What is the store / vendor name?", "expected": "PINE GAS #18", "field": "vendor"}
+{"id": "gas-total", "image": "fixtures/receipts/pine_gas.jpg", "ocr": "fixtures/ocr/pine_gas.json", "question": "What is the total amount?", "expected": "43.55", "field": "total"}

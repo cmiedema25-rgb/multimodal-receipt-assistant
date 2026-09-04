@@ -1,0 +1,215 @@
+{
+  "cases": 16,
+  "correct": 16,
+  "precision": 1.0,
+  "by_field": {
+    "date": {
+      "n": 1.0,
+      "correct": 1.0,
+      "precision": 1.0
+    },
+    "first_item": {
+      "n": 1.0,
+      "correct": 1.0,
+      "precision": 1.0
+    },
+    "item_count": {
+      "n": 2.0,
+      "correct": 2.0,
+      "precision": 1.0
+    },
+    "layout": {
+      "n": 2.0,
+      "correct": 2.0,
+      "precision": 1.0
+    },
+    "payment": {
+      "n": 2.0,
+      "correct": 2.0,
+      "precision": 1.0
+    },
+    "subtotal": {
+      "n": 1.0,
+      "correct": 1.0,
+      "precision": 1.0
+    },
+    "tax": {
+      "n": 1.0,
+      "correct": 1.0,
+      "precision": 1.0
+    },
+    "total": {
+      "n": 3.0,
+      "correct": 3.0,
+      "precision": 1.0
+    },
+    "vendor": {
+      "n": 3.0,
+      "correct": 3.0,
+      "precision": 1.0
+    }
+  },
+  "passed": true,
+  "results": [
+    {
+      "case_id": "coffee-vendor",
+      "question": "What is the vendor name?",
+      "expected": "NORTHSTAR COFFEE",
+      "predicted": "NORTHSTAR COFFEE",
+      "field": "vendor",
+      "score": 0.67,
+      "correct": true,
+      "image": "fixtures/receipts/northstar_coffee.png"
+    },
+    {
+      "case_id": "coffee-total",
+      "question": "What is the grand total?",
+      "expected": "15.81",
+      "predicted": "15.81",
+      "field": "total",
+      "score": 0.55,
+      "correct": true,
+      "image": "fixtures/receipts/northstar_coffee.png"
+    },
+    {
+      "case_id": "coffee-date",
+      "question": "What date is on the receipt?",
+      "expected": "2026-08-12",
+      "predicted": "2026-08-12",
+      "field": "date",
+      "score": 0.55,
+      "correct": true,
+      "image": "fixtures/receipts/northstar_coffee.png"
+    },
+    {
+      "case_id": "coffee-items",
+      "question": "How many line items are listed?",
+      "expected": "3",
+      "predicted": "3",
+      "field": "item_count",
+      "score": 0.63,
+      "correct": true,
+      "image": "fixtures/receipts/northstar_coffee.png"
+    },
+    {
+      "case_id": "coffee-first",
+      "question": "What is the first item they bought?",
+      "expected": "Latte 12oz",
+      "predicted": "Latte 12oz",
+      "field": "first_item",
+      "score": 0.63,
+      "correct": true,
+      "image": "fixtures/receipts/northstar_coffee.png"
+    },
+    {
+      "case_id": "coffee-layout",
+      "question": "Is this a thermal receipt or an invoice layout?",
+      "expected": "thermal_receipt",
+      "predicted": "thermal_receipt",
+      "field": "layout",
+      "score": 0.9,
+      "correct": true,
+      "image": "fixtures/receipts/northstar_coffee.png"
+    },
+    {
+      "case_id": "hardware-vendor",
+      "question": "Which company issued this document?",
+      "expected": "HARBOR HARDWARE",
+      "predicted": "HARBOR HARDWARE",
+      "field": "vendor",
+      "score": 0.67,
+      "correct": true,
+      "image": "fixtures/receipts/harbor_hardware.png"
+    },
+    {
+      "case_id": "hardware-total",
+      "question": "What is the amount due / total?",
+      "expected": "174.36",
+      "predicted": "174.36",
+      "field": "total",
+      "score": 0.55,
+      "correct": true,
+      "image": "fixtures/receipts/harbor_hardware.png"
+    },
+    {
+      "case_id": "hardware-layout",
+      "question": "What kind of document layout is this (invoice or thermal)?",
+      "expected": "invoice",
+      "predicted": "invoice",
+      "field": "layout",
+      "score": 0.9,
+      "correct": true,
+      "image": "fixtures/receipts/harbor_hardware.png"
+    },
+    {
+      "case_id": "hardware-payment",
+      "question": "How was this paid?",
+      "expected": "ACH ****9012",
+      "predicted": "ACH ****9012",
+      "field": "payment",
+      "score": 0.55,
+      "correct": true,
+      "image": "fixtures/receipts/harbor_hardware.png"
+    },
+    {
+      "case_id": "grill-tax",
+      "question": "What is the tax amount?",
+      "expected": "2.59",
+      "predicted": "2.59",
+      "field": "tax",
+      "score": 0.55,
+      "correct": true,
+      "image": "fixtures/receipts/mesa_grill.png"
+    },
+    {
+      "case_id": "grill-payment",
+      "question": "What payment card was used?",
+      "expected": "MASTERCARD ****5510",
+      "predicted": "MASTERCARD ****5510",
+      "field": "payment",
+      "score": 0.55,
+      "correct": true,
+      "image": "fixtures/receipts/mesa_grill.png"
+    },
+    {
+      "case_id": "office-subtotal",
+      "question": "What is the subtotal before tax?",
+      "expected": "532.35",
+      "predicted": "532.35",
+      "field": "subtotal",
+      "score": 0.55,
+      "correct": true,
+      "image": "fixtures/receipts/miller_office.png"
+    },
+    {
+      "case_id": "office-items",
+      "question": "How many line items are on the invoice?",
+      "expected": "4",
+      "predicted": "4",
+      "field": "item_count",
+      "score": 0.55,
+      "correct": true,
+      "image": "fixtures/receipts/miller_office.png"
+    },
+    {
+      "case_id": "gas-vendor",
+      "question": "What is the store / vendor name?",
+      "expected": "PINE GAS #18",
+      "predicted": "PINE GAS #18",
+      "field": "vendor",
+      "score": 0.67,
+      "correct": true,
+      "image": "fixtures/receipts/pine_gas.jpg"
+    },
+    {
+      "case_id": "gas-total",
+      "question": "What is the total amount?",
+      "expected": "43.55",
+      "predicted": "43.55",
+      "field": "total",
+      "score": 0.55,
+      "correct": true,
+      "image": "fixtures/receipts/pine_gas.jpg"
+    }
+  ]
+}

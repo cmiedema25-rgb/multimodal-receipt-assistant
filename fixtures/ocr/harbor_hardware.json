@@ -1,0 +1,217 @@
+{
+  "source": "fixtures/receipts/harbor_hardware.png",
+  "vendor": "HARBOR HARDWARE",
+  "date": "2026-07-03",
+  "currency": "USD",
+  "subtotal": 160.7,
+  "tax": 13.66,
+  "total": 174.36,
+  "payment": "ACH ****9012",
+  "doc_type": "invoice",
+  "line_items": [
+    {
+      "desc": "Safety gloves (pair)",
+      "qty": 12,
+      "amount": 47.4
+    },
+    {
+      "desc": "LED shop lamp",
+      "qty": 4,
+      "amount": 89.6
+    },
+    {
+      "desc": "Cable ties 8in (100)",
+      "qty": 6,
+      "amount": 23.7
+    }
+  ],
+  "blocks": [
+    {
+      "text": "HARBOR HARDWARE",
+      "bbox": [
+        24,
+        33,
+        279,
+        18
+      ],
+      "role": "vendor",
+      "confidence": 0.99
+    },
+    {
+      "text": "INVOICE  INV-4419",
+      "bbox": [
+        24,
+        67,
+        140,
+        11
+      ],
+      "role": "doc_type",
+      "confidence": 0.99
+    },
+    {
+      "text": "Date: 2026-07-03",
+      "bbox": [
+        24,
+        133,
+        133,
+        11
+      ],
+      "role": "date",
+      "confidence": 0.99
+    },
+    {
+      "text": "Bill to: Cascadia Logistics",
+      "bbox": [
+        24,
+        161,
+        190,
+        14
+      ],
+      "role": "bill_to",
+      "confidence": 0.99
+    },
+    {
+      "text": " 12  Safety gloves (pair)",
+      "bbox": [
+        28,
+        212,
+        211,
+        14
+      ],
+      "role": "line_item",
+      "confidence": 0.99
+    },
+    {
+      "text": "  47.40",
+      "bbox": [
+        500,
+        213,
+        59,
+        10
+      ],
+      "role": "line_amount",
+      "confidence": 0.99
+    },
+    {
+      "text": "  4  LED shop lamp",
+      "bbox": [
+        28,
+        242,
+        152,
+        14
+      ],
+      "role": "line_item",
+      "confidence": 0.99
+    },
+    {
+      "text": "  89.60",
+      "bbox": [
+        500,
+        243,
+        59,
+        10
+      ],
+      "role": "line_amount",
+      "confidence": 0.99
+    },
+    {
+      "text": "  6  Cable ties 8in (100)",
+      "bbox": [
+        28,
+        272,
+        211,
+        12
+      ],
+      "role": "line_item",
+      "confidence": 0.99
+    },
+    {
+      "text": "  23.70",
+      "bbox": [
+        500,
+        273,
+        59,
+        10
+      ],
+      "role": "line_amount",
+      "confidence": 0.99
+    },
+    {
+      "text": "Subtotal",
+      "bbox": [
+        400,
+        333,
+        63,
+        11
+      ],
+      "role": "subtotal_label",
+      "confidence": 0.99
+    },
+    {
+      "text": "160.70",
+      "bbox": [
+        520,
+        333,
+        51,
+        10
+      ],
+      "role": "subtotal",
+      "confidence": 0.99
+    },
+    {
+      "text": "Tax 8.5%",
+      "bbox": [
+        399,
+        359,
+        69,
+        11
+      ],
+      "role": "tax_label",
+      "confidence": 0.99
+    },
+    {
+      "text": "13.66",
+      "bbox": [
+        528,
+        359,
+        42,
+        10
+      ],
+      "role": "tax",
+      "confidence": 0.99
+    },
+    {
+      "text": "TOTAL",
+      "bbox": [
+        400,
+        390,
+        64,
+        13
+      ],
+      "role": "total_label",
+      "confidence": 0.99
+    },
+    {
+      "text": "174.36",
+      "bbox": [
+        520,
+        390,
+        70,
+        13
+      ],
+      "role": "total",
+      "confidence": 0.99
+    },
+    {
+      "text": "NET 15   ACH ****9012",
+      "bbox": [
+        24,
+        449,
+        177,
+        10
+      ],
+      "role": "payment",
+      "confidence": 0.99
+    }
+  ]
+}
